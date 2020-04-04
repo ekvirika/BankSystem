@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="//After Users request, IHandler should set the successor(which concreteHandler should Handle the User)">
+    <Position X="16.75" Y="1" Height="1.003" Width="1.7" />
+  </Comment>
+  <Comment CommentText="//All members are inherited from interface IUser">
+    <Position X="5.086" Y="1.797" Height="0.438" Width="1.95" />
+  </Comment>
+  <Class Name="BankSystem_PCL.BronzeMember">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCQAAAAAAAACAIAAAAAAASABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\Models\Users\BronzeMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.3" />
+  </Class>
+  <Class Name="BankSystem_PCL.GoldMember">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCQAAAAAAAACAIAAAAAAASABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\Models\Users\GoldMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankSystem_PCL.SilverMember">
+    <Position X="10" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCQAAAAAAAACAIAAAAAAASABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Implementation\Models\Users\SilverMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankSystem_PCL.GoldHandler">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Implementation\Services\HandlerService\GoldHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankSystem_PCL.SilverHandler">
+    <Position X="15" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Implementation\Services\HandlerService\SilverHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankSystem_PCL.BronzeHandler">
+    <Position X="17" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Implementation\Services\HandlerService\BronzeHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankSystem_PCL.BankService">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAABAAAIEAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Implementation\Services\BankServices\BankService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankSystem_PCL.SafeService">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAQAJBAAAAAAA=</HashCode>
+      <FileName>Implementation\Services\BankServices\SafeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankSystem_PCL.LoanForGoldMember">
+    <Position X="20.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAIAAAAAAAAAEAgAAAAAAAAEAAAADAAAAAAAgAAA=</HashCode>
+      <FileName>Implementation\Services\BankServices\LoanService\LoanForGoldMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankSystem_PCL.LoanForSilverMember">
+    <Position X="22.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAIAAAAAAAAAEAgAAAAAAAAEAAAADAAAAAAAgAAA=</HashCode>
+      <FileName>Implementation\Services\BankServices\LoanService\LoanForSilverMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankSystem_PCL.LoanForBronzeMember">
+    <Position X="24.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAIAAAAAAAAAEAgAAAAAAAAEAAAADAAAAAAAgAAA=</HashCode>
+      <FileName>Implementation\Services\BankServices\LoanService\LoanForBronzeMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BankSystem_PCL.IUser">
+    <Position X="8" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AgCQAAAAAAAACAIAAAAAAASABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstraction\Models\IUser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankSystem_PCL.IHandler">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Abstraction\Services\IHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankSystem_PCL.ILoan">
+    <Position X="22.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Abstraction\Services\ILoan.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankSystem_PCL.IDeposit">
+    <Position X="17.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAgAAAAAEEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstraction\Services\IDeposit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankSystem_PCL.ITransaction">
+    <Position X="20.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAgAAAAAAAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>Abstraction\Services\ITransaction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

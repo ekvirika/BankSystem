@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\obj\Debug\BankSystem_PCL.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\bin\Debug\BankSystem_PCL.dll
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\bin\Debug\BankSystem_PCL.pdb
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\bin\Debug\EPPlus.dll
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\bin\Debug\EPPlus.xml
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\obj\Debug\BankSystem_PCL.csproj.CopyComplete
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\obj\Debug\BankSystem_PCL.dll
+C:\Users\user\Desktop\Programming\Homeworks\CSharp\BankSystem\BankSystem_PCL\obj\Debug\BankSystem_PCL.pdb
