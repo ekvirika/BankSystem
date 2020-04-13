@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BankSystem_PCL
 {
-    public class LoanForBronzeMember : ILoan
+    public class LoanForBronzeMember : ILoanService, ILoan
     {
         public int YearsToPay { get; set; } = 1;
         public int InterestRate { get; set; } = 20;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankSystem_PCL.Implementation.Services.BankServices.DepositService
 {
-    public class DepositForBronzeMember : IDeposit
+    public class DepositForBronzeMember : IDeposit, IDepositService
     {
         public int MoneyLimit { get; set; } = 2000;
         public int Tenure { get; set; } = 2;

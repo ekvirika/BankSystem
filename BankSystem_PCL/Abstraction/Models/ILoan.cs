@@ -5,11 +5,11 @@ using System.Text;
 
 namespace BankSystem_PCL
 {
-    public interface IDeposit : ITransaction
+    public interface ILoan : ITransaction
     {
-        int MoneyLimit { get; set; }
-        int Tenure { get; set; }
+        int YearsToPay { get; set; }
         int InterestRate { get; set; }
-        string GetDepositInfo();
+        int MoneyLimit { get; set; }
+
     }
 }
